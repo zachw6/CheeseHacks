@@ -25,14 +25,24 @@ header {
 }
 
 ul {
-    height: 100%:
+    height: 100%;
 }
 
-header li {
+header a li {
     position: relative;
     padding: 1em 2em;
     float: right;
     list-style-type: none;
+    cursor: pointer;
+}
+
+header a, header a:visited {
+    color: black;
+    cursor: pointer;
+}
+
+header ul {
+    cursor: pointer !important;
 }
 
 /* HERO CSS */
@@ -156,4 +166,24 @@ section.agenda h1 {
 
 #agenda-day table tr:nth-child(2n) {
     background-color: hsl(0, 0%, 90%)
+}
+
+/* PARTNERS AND ORGANIZERS CSS */
+section.partners h1,
+section.organizers h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.partners-grid,
+.organizers-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.partners-grid img,
+.organizers-grid img {
+    width: 100%;
+    margin: auto 0;
+    max-height: 10em;
 }
