@@ -1,0 +1,34 @@
+@media only screen and (max-width: 762px) {
+    section.hero #hero-content {
+        margin-left: 0em;
+        text-align: center;
+    }
+    .workshops-container {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 1em;
+    }
+    #workshop_card {
+        margin-bottom: 1em;
+    }
+
+    .agenda-days {
+        grid-template-columns: 100%;
+    }
+
+    #agenda-day:first-child {
+        width: 100% !important;
+    }
+
+    .partners-grid, .organizers-grid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .partners-grid img, .organizers-grid img {
+        margin-bottom: 2em;
+    }
+
+    .organizers-grid img:first-child {
+        margin-top: 2em;
+    }
+  }

@@ -7,29 +7,42 @@
         <meta name="description" content="CheeseHacks 2021 is a Hackathon hosted at UW-Madison hosted by Google Developers Student Club - UW Madison and UW Madison's Web Development club.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/mobile_styles.css">
         <link rel="stylesheet" href="static/css/responsive.css">
-        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">        
         <script src="static/js/countdown.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+        <script src="static/js/bootstrap-collapse.js"></script>
     </head>
     
-    <body class="x-hidden has-sticky-header">
+    <body>
         <header>
-            <nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light">
-            <ul class="navbar-nav ml-lg-auto">
-                <div class="custom-menu__right"></div>
-                    <a href="#"><li class="event-button">Apply Now</li></a>
-                </div>
-                <a href="#about"><li class="nav-item">About</li></a>
-                <a href="#workshops"><li class="nav-item">Workshops</li></a>
-                <a href="#agenda"><li class="nav-item">Agenda</li></a>
-                <a href="#organizers"><li class="nav-item">Organizers</li></a>
-                <a href="#partners"><li class="nav-item">Partners</li></a>
-            </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light custom-menu custom-menu__light">
+                    <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-lg-auto">
+                                <a href="#"><li class="event-button">Apply Now</li></a>
+                            <a href="#about"><li class="nav-item">About</li></a>
+                            <a href="#workshops"><li class="nav-item">Workshops</li></a>
+                            <a href="#agenda"><li class="nav-item">Agenda</li></a>
+                            <a href="#organizers"><li class="nav-item">Organizers</li></a>
+                            <a href="#partners"><li class="nav-item">Partners</li></a>
+                        </ul>
+                    </nav>
+                    </div>
+            </div>
         </header>
 
         <section class="hero">
             <div id="hero-content">
+                <br><br>
                 <h1><span style="color: yellow">Cheese</span>Hacks 2021</h1>
                 <h2>October 23-24, 2021</h2>
             </div>
@@ -41,7 +54,7 @@
         </section>
 
         <section id="about" class="about section-spacer">
-            <div id="container">
+            <div class="container">
                 <h1>/ * What is CheeseHacks? * /</h1>
                 <p>CheeseHacks is a beginner friendly fun 24-hour Hackathon hosted by GDSC UW Madison and the Web Dev Club on the last weekend of October.</p>
                 <p>We'll be hosting a series of helpful workshop leading up to the Hackathon weekend starting last week of September to help prepare for the hackathon.</p>
@@ -49,7 +62,7 @@
         </section>
 
         <section id="workshops" class="workshops section-spacer">
-            <div id="container">
+            <div class="container">
                 <h1>/ * Workshops * /</h1>
                 <div class="workshops-container">
                     <div id="workshop_card">
@@ -69,7 +82,7 @@
         </section>
 
         <section id="agenda" class="agenda section-spacer">
-            <div id="container">
+            <div class="container">
                 <h1>/ * Agenda * /</h1>
                 <div class="agenda-days">
                     <div id="agenda-day">
@@ -131,7 +144,7 @@
         </section>
 
         <section id="partners" class="partners section-spacer">
-            <div id="container">
+            <div class="container">
                 <h1>/ * Partners * /</h1>
                 <div class="partners-grid">
                     <img src="static/images/Google_Cloud_Platform-Logo.wine.svg" />
@@ -141,7 +154,7 @@
         </section>
 
         <section id="organizers" class="organizers section-spacer">
-            <div id="container">
+            <div class="container">
                 <h1>/ * Organizers * /</h1>
                 <div class="organizers-grid">
                     <img src="static/images/GDSC_Madison_Logo.svg" />
