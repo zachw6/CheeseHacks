@@ -48,7 +48,7 @@ header ul {
 /* HERO CSS */
 
 section.hero {
-    background-image: url("images/cheesehacks_hero.png");
+    background-image: url("../images/cheesehacks_hero.png");
     background-repeat: no-repeat;
     background-size: stretch;
     height: 100vh;
@@ -187,3 +187,44 @@ section.organizers h1 {
     margin: auto 0;
     max-height: 10em;
 }
+
+.custom-menu {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+.custom-menu .nav-item .nav-link {
+padding: 20px 15px;
+text-transform: capitalize;
+color: #637282;
+}
+  
+.custom-menu .nav-item .nav-link:hover {
+color: #1B2733;
+}
+.nav-item{
+font-weight: bold;
+}
+.custom-menu__light {
+background: #fff;
+}
+.event-button{
+background: yellow;
+font-weight: bold;
+color: black;
+padding: 15px 12px;
+border-radius: 50px;
+text-decoration: none;
+}
+.custom-menu__light .nav-link {
+color: #1B2733;
+}
+  
+.custom-menu__light .navbar-toggler {
+border-color: transparent;
+}
+
+
+.section-spacer {
+    padding: 100px 0;
+  }
