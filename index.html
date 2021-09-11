@@ -7,33 +7,127 @@
         <meta name="description" content="CheeseHacks 2021 is a Hackathon hosted at UW-Madison hosted by Google Developers Student Club - UW Madison and UW Madison's Web Development club.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="static/styles.css">
+        <script src="static/js/countdown.js"></script>
     </head>
     
     <header>
-        
+        <ul>
+            <a href="#"><li><button>Apply Now</button></li></a>
+            <a href="#organizers"><li>Organizers</li></a>
+            <a href="#partners"><li>Partners</li></a>
+            <a href="#agenda"><li>Agenda</li></a>
+            <a href="#workshops"><li>Workshops</li></a>
+            <a href="#about"><li>About</li></a>
+        </ul>
     </header>
 
     <section class="hero">
+        <div id="hero-content">
+            <h1><span style="color: yellow">Cheese</span>Hacks 2021</h1>
+            <h2>October 23-24, 2021</h2>
+        </div>
+        <div id="line"></div>
+        <div id="hero-content">
+            <h2>Hackacthon begins in:</h2>
+            <h3 id="countdown">Countdown loading...</h3>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div id="container">
+            <h1>/ * What is CheeseHacks? * /</h1>
+            <p>CheeseHacks is a beginner friendly fun 24-hour Hackathon hosted by GDSC UW Madison and the Web Dev Club on the last weekend of October.</p>
+            <p>We'll be hosting a series of helpful workshop leading up to the Hackathon weekend starting last week of September to help prepare for the hackathon.</p>
+        </div>
+    </section>
+
+    <section id="workshops" class="workshops">
+        <div id="container">
+            <h1>/ * Workshops * /</h1>
+            <div class="workshops-container">
+                <div id="workshop_card">
+                    <h3>Intro to Web Development 1</h3>
+                    <p>Thursday - Sept. 30, 2021</p>
+                </div>
+                <div id="workshop_card">
+                    <h3>Intro to Web Development 2</h3>
+                    <p>Sunday - Oct. 3, 2021</p>
+                </div>
+                <div id="workshop_card">
+                    <h3>Intro to Web Development 3</h3>
+                    <p>Friday - Oct. 15, 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="agenda" class="agenda">
+        <div id="container">
+            <h1>/ * Agenda * /</h1>
+            <div class="agenda-days">
+                <div id="agenda-day">
+                    <h2>Day 1</h2>
+                    <table>
+                        <tr>
+                            <th>Time</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>12:00 pm</td>
+                            <td>Hackathon Welcome Speech</td>
+                        </tr>
+                        <tr>
+                            <td>1:00 pm</td>
+                            <td>Hackathon Tracks Revealed and Hackathon Starts</td>
+                        </tr>
+                        <tr>
+                            <td>1:05 pm</td>
+                            <td>Lunch</td>
+                        </tr>
+                        <tr>
+                            <td>3:00 pm</td>
+                            <td>Stack Up Game</td>
+                        </tr>
+                        <tr>
+                            <td>4:00 pm</td>
+                            <td>Postman Integration API Workshop</td>
+                        </tr>
+                        <tr>
+                            <td>7:00 pm</td>
+                            <td>Fun Activity</td>
+                        </tr>
+                        <tr>
+                            <td>8:00 pm</td>
+                            <td>Free Pizza</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="agenda-day">
+                    <h2>Day 2</h2>
+                    <table>
+                        <tr>
+                            <th>Time</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>11:00 am</td>
+                            <td>Speaker from ???</td>
+                        </tr>
+                        <tr>
+                            <td>12:00 pm</td>
+                            <td>Hackathon Closes and Winners Revealed</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="partners">
 
     </section>
 
-    <section class="about">
-
-    </section>
-
-    <section class="workshops">
-
-    </section>
-
-    <section class="agenda">
-
-    </section>
-
-    <section class="partners">
-
-    </section>
-
-    <section class="organizers">
+    <section id="organizers" class="organizers">
 
     </section>
 </html>

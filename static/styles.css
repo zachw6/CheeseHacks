@@ -1,3 +1,159 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    padding: 3em 2em;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    filter: drop-shadow(0px 5px 5px black);
+    z-index: 100;
+}
+
+ul {
+    height: 100%:
+}
+
+header li {
+    position: relative;
+    padding: 1em 2em;
+    float: right;
+    list-style-type: none;
+}
+
+/* HERO CSS */
+
+section.hero {
+    background-image: url("images/cheesehacks_hero.png");
+    background-repeat: no-repeat;
+    background-size: stretch;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.hero h1, section.hero h2, section.hero h3 {
+    font-size: 4em;
+    color: white; 
+    filter: drop-shadow(5px 5px 5px black);
+    flex-basis: 100%;
+}
+
+section.hero h2 {
+    font-size: 3em !important;
+}
+
+section.hero h3 {
+    font-size: 2em !important;
+}
+
+section.hero #hero-content {
+    margin-left: 5em;
+    flex-basis: 100%;
+}
+
+#line {
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+}
+
+/* ABOUT CSS */
+
+section#about {
+    color: #f0f0f0;
+    background-color: hsl(106, 48%, 35%);
+}
+
+section.about h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+section.about p {
+    font-size: 1.25em;
+    margin: 1em 0;
+}
+
+/* WORKSHOPS CSS */
+
+section.workshops {
+    color: #101010;
+    background-color: hsl(54, 80%, 56%);
+}
+
+section.workshops h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.workshops-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 1em;
+}
+
+#workshop_card {
+    background-color: hsl(54, 80%, 86%);
+    margin: 0 1.5%;
+    padding: 1em;
+}
+
+/* AGENDA CSS */
+section.agenda {
+    background-color: #f0f0f0;
+    color: hsl(106, 48%, 35%);
+}
+
+section.agenda h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#agenda-day h2 {
+    margin: 0.5em 0;
+}
+
+.agenda-days {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    color: #101010
+}
+
+#agenda-day table {
+    background-color: white;
+    border: 2px solid #101010;
+    width: 100%;
+}
+
+#agenda-day:first-child {
+    width: 95% !important;
+}
+
+#agenda-day table th {
+    border-bottom: 2px solid #101010;
+}
+
+#agenda-day table th, #agenda-day table td {
+    padding: 5px;
+}
+
+#agenda-day table tr:nth-child(2n) {
+    background-color: hsl(0, 0%, 90%)
 }
