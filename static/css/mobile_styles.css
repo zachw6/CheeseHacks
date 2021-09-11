@@ -31,4 +31,14 @@
     .organizers-grid img:first-child {
         margin-top: 2em;
     }
+
+    header a li {
+        float: none !important;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    header a {
+        text-decoration: none;
+    }
   }
