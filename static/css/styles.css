@@ -48,7 +48,7 @@ header ul {
 section.hero {
     background-image: url("../images/cheesehacks_hero.png");
     background-repeat: no-repeat;
-    background-size: stretch;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
