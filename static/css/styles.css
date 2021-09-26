@@ -120,12 +120,15 @@ section.workshops h1 {
     background-color: hsl(54, 80%, 86%);
     margin: 0 1.5%;
     padding: 1em;
+    border-style: solid;
+    margin-top: 12px;
 }
 
 /* AGENDA CSS */
 section.agenda {
     background-color: #f0f0f0;
-    color: hsl(106, 48%, 35%);
+    /*color: hsl(106, 48%, 35%);*/
+    color: black;
 }
 
 section.agenda h1 {
