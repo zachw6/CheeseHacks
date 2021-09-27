@@ -229,3 +229,9 @@ border-color: transparent;
 .section-spacer {
     padding: 100px 0;
   }
+
+/* AGENDA CSS */
+section.qr {
+    display: flex;
+    justify-content: center;
+}
